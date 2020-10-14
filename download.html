@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Vim</title>
+<!-- Latest compiled and minified CSS -->
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<link rel = "stylesheet" href = "styles.css" />
+
+<body>
+  <!-- Fill in all these links -->
+  <nav class = "navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+    <a class = "navbar-brand" href = "home.html">
+      <img src = "vimlogo.png" width = "40"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class = "navbar-nav">
+        <li class = "nav-item">
+          <a class = "nav-link" href = "home.html">Home</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href = "download.html">Download</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href = "doc.html">Documentation</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href = "community.html">Community</a>
+        </li>
+        <li class = "nav-item">
+          <a class = "nav-link" href = "news.html">News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br /> <br /> <br /> <br />
+  <div class = "container">
+  <h1 style = "font-size: 50px" id = "download">Download Details</h1>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Operating System</th>
+        <th>Instructions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Windows</td>
+        <td>
+          Install the <a href = "https://ftp.nluug.nl/pub/vim/pc/gvim82.exe">
+            self-installing executable</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Unix</td>
+        <td>
+          Get Vim through GitHub with <br />
+          <code>
+            git clone https://github.com/vim/vim.git
+          </code> <br />
+          Alternatively, get Vim through Mercurial with <br />
+          <code>
+            hg clone https://bitbucket.org/vim-mirror/vim
+          </code> <br />
+          A final possibility is an
+          <a href = "https://github.com/vim/vim-appimage/releases/latest">
+            AppImage
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>Mac</td>
+        <td>
+          See
+          <a href = "https://github.com/macvim-dev/macvim">
+            MacVim
+          </a>
+          for a GUI version and
+          <a href = "https://formulae.brew.sh/formula/vim">
+            Homebrew
+          </a>
+          for a terminal version.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+</body>
+</html>
